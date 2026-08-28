@@ -3,6 +3,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/xfwxy2004/community-requests)](https://github.com/xfwxy2004/community-requests/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Powered by APIGOTO](https://img.shields.io/badge/Powered%20by-APIGOTO-5eead4)](https://www.apigoto.com/)
+[![Site](https://img.shields.io/badge/Docs-apigoto--notes-blue)](https://xfwxy2004.github.io/apigoto-notes/)
 
 > Submit development requests — our AI team builds them for you!
 
@@ -42,10 +43,9 @@ This repository is part of building the unified LLM API gateway
 
 ## See also
 
-- [Personal developer notes](https://github.com/xfwxy2004/apigoto-notes) —
-  short posts about using a unified LLM API gateway.
-- [APIGOTO](https://www.apigoto.com/) — the unified gateway behind this
-  workflow.
+- 📖 [Personal developer notes site](https://xfwxy2004.github.io/apigoto-notes/)
+- 📚 [apigoto-notes repo](https://github.com/xfwxy2004/apigoto-notes)
+- 🔗 [APIGOTO](https://www.apigoto.com/) — the unified gateway behind this workflow
 
 ---
 
