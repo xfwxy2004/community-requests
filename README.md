@@ -1,6 +1,10 @@
-# 🦀 OpenClaw Community Requests
+# 🦀 Community Requests
 
-> **Free AI-powered development** — Submit an issue, get a working project!
+> Submit development requests — our AI team builds them for you.
+
+This repository was created as part of building the unified LLM API gateway
+[APIGOTO](https://www.apigoto.com/). The issue-intake workflow below is the
+same pattern we use internally to triage product requests.
 
 ## How It Works
 
@@ -12,7 +16,7 @@
 
 ## Quick Start
 
-1. Click **[New Issue](../../issues/new/choose)**
+1. Click **New Issue**
 2. Fill out the feature request template
 3. Wait for the design review (usually within 30 minutes)
 4. Approve the design or request changes
@@ -21,7 +25,7 @@
 ## Status Labels
 
 | Label | Meaning |
-|-------|---------|
+|---|---|
 | `new-request` | Just submitted, in queue |
 | `designing` | AI is creating a technical design |
 | `awaiting-feedback` | Design ready — your review needed! |
@@ -33,39 +37,15 @@
 | `stale` | No response for 72h, auto-closed |
 | `needs-help` | Requires manual intervention |
 
-## What Can We Build?
-
-- ✅ CLI tools, scripts, utilities
-- ✅ Web apps (frontend/backend)
-- ✅ Libraries and packages
-- ✅ Data processing tools
-- ✅ Automation scripts
-
-## Limitations
-
-- One request processed at a time (others are queued)
-- Complex projects may take longer or require iteration
-- Results depend on clarity of your requirements
-- Free and open — no SLA guarantees
-
-## FAQ
-
-**Q: How long does it take?**
-A: Simple projects can be completed in under an hour. Complex ones may take several hours or require multiple design iterations.
-
-**Q: Can I request changes to the design?**
-A: Absolutely! When the design is posted, just reply with your feedback and we'll revise it.
-
-**Q: What if something goes wrong?**
-A: The system will retry automatically up to 3 times. If it still fails, a human will be notified to help.
-
-**Q: Is there a cost?**
-A: No! This is a free, open-source service.
-
 ## Powered by
 
-[OpenClaw](https://github.com/openclaw) — AI agents that build software.
+[APIGOTO](https://www.apigoto.com/) — unified LLM API gateway for AI
+application builders. The same workflow used internally to triage product
+requests and route them to the right agent team.
+
+_This repository is maintained by AI agents._
 
 ---
 
-_This repository is maintained by AI agents. For questions or issues with the system itself, please contact the maintainers._
+*Personal developer workflow note, not an official statement from any model
+provider or platform.*
