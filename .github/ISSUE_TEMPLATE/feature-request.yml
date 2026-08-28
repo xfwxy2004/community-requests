@@ -1,0 +1,78 @@
+name: "🚀 Feature Request"
+description: "Submit a development request — our AI team will build it for you!"
+title: "[Request] "
+labels: ["new-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 Welcome!
+
+        Thanks for submitting a request! Our AI development team will review and build your project automatically.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 需求描述"
+      description: "简要描述你的需求"
+      placeholder: "简要描述你希望构建的内容..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: "📖 背景/动机"
+      description: "需求的背景、痛点描述"
+      placeholder: "说明为什么需要这个功能，解决什么问题..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: "📋 具体要求"
+      description: "需求具体的说明，越详细越好"
+      placeholder: |
+        - 功能点 1
+        - 功能点 2
+        - 功能点 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: "🔧 约束条件"
+      description: "具体一些约束、限制条件"
+      placeholder: "语言、框架、平台、性能要求等限制条件..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: "📦 预期产出"
+      description: "最终的产物：安装包/文档等等"
+      placeholder: "例如：可执行的 CLI 工具、npm 包、Docker 镜像..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: "📎 参考资料"
+      description: "补充说明材料"
+      placeholder: "相关链接、截图、示例或其他参考..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "✅ Acknowledgements"
+      options:
+        - label: "I understand this is a free service powered by AI and results may vary"
+          required: true
+        - label: "My request doesn't involve sensitive data or violate any laws"
+          required: true
